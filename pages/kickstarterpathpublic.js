@@ -28,7 +28,7 @@ export default class kickstarterpathpublic extends Component {
 		this.setState({
 			bookedPrivateFirstClass : true
 		});
-		Router.push('/privateclass');
+		Router.push('/privateclass2');
 		// <PrivateClass bookedFirstClass={this.bookedFirstClass} />;
 	};
 
@@ -124,7 +124,7 @@ export default class kickstarterpathpublic extends Component {
 						<div className="row">
 							{/* Second row first box  */}
 							<div className="col-sm special">
-								<div onClick={this.toPublicClass}>
+								<div onClick={this.toPublicClass2}>
 									<h6>> Basics</h6>
 									<h2>Public Class</h2>
 									<p>
@@ -139,7 +139,7 @@ export default class kickstarterpathpublic extends Component {
 
 							{/* Second row second box  */}
 							<div className="col-sm special">
-								<div onClick={this.toPublicClass}>
+								<div onClick={this.toPublicClass2}>
 									<h6>> Explore</h6>
 									<h2>Public Class</h2>
 									<p>
@@ -154,7 +154,7 @@ export default class kickstarterpathpublic extends Component {
 
 							{/* Second row third box  */}
 							<div className="col-sm special">
-								<div onClick={this.toPrivateClass}>
+								<div onClick={this.toPrivateClass2}>
 									<h6>> Be Free</h6>
 									<h2>Private Session</h2>
 									<p>

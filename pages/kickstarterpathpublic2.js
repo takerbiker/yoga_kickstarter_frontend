@@ -34,15 +34,15 @@ export default class kickstarterpathpublic2 extends Component {
 	// };
 
 	// To redirect to private class
-	toPrivateClass = () => {
-		console.log('Button has been clicked');
-		console.log("Button's state is", this.state.bookedPrivateFirstClass);
-		this.setState({
-			bookedPrivateFirstClass : true
-		});
-		Router.push('/privateclass');
-		// <PrivateClass bookedFirstClass={this.bookedFirstClass} />;
-	};
+	// toPrivateClass = () => {
+	// 	console.log('Button has been clicked');
+	// 	console.log("Button's state is", this.state.bookedPrivateFirstClass);
+	// 	this.setState({
+	// 		bookedPrivateFirstClass : true
+	// 	});
+	// 	Router.push('/privateclass2');
+	// 	// <PrivateClass bookedFirstClass={this.bookedFirstClass} />;
+	// };
 
 	toPrivateClass2 = () => {
 		console.log('Button has been clicked');
