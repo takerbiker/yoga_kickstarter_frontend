@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Router from 'next/router';
 
-export default class PrivateClass2 extends React.Component {
+export default class privateclass2 extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -60,7 +60,7 @@ export default class PrivateClass2 extends React.Component {
 	// To handle booking of session button
 	handleBookSession = (e) => {
 		// alert('Booked first session');
-		Router.push('/BookPrivateSession2');
+		Router.push('/bookprivatesession2');
 	};
 
 	render() {

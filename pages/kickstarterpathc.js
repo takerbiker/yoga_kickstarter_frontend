@@ -3,7 +3,7 @@ import { Component } from 'react';
 import Router from 'next/router';
 import Head from 'next/head';
 
-export default class Kickstarterpathc extends Component {
+export default class kickstarterpathc extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -28,7 +28,7 @@ export default class Kickstarterpathc extends Component {
 		this.setState({
 			bookedPrivateFirstClass : true
 		});
-		Router.push('/PrivateClass');
+		Router.push('/privateclass');
 		// <PrivateClass bookedFirstClass={this.bookedFirstClass} />;
 	};
 
@@ -39,7 +39,7 @@ export default class Kickstarterpathc extends Component {
 		this.setState({
 			bookedFirstPublicClass : true
 		});
-		Router.push('/PublicClass2');
+		Router.push('/publicclass2');
 		// <PrivateClass bookedFirstClass={this.bookedFirstClass} />;
 	};
 

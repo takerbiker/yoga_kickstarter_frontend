@@ -5,7 +5,7 @@ import Router from 'next/router';
 import Link from 'next/link';
 import Layout from '../components/MyLayout';
 
-export default class Login extends React.Component {
+export default class login extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -41,7 +41,7 @@ export default class Login extends React.Component {
 		} else if (this.state.username === 'takerbiker' && this.state.password === 'takerbiker') {
 			Router.push('/kickstarterpath');
 		} else if (this.state.username === 'admin') {
-			Router.push('/Adminprofile');
+			Router.push('/adminprofile');
 		}
 	};
 

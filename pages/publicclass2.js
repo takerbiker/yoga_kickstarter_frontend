@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Component } from 'react';
 import Head from 'next/head';
 
-export default class PublicClass2 extends React.Component {
+export default class publicclass2 extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -46,7 +46,7 @@ export default class PublicClass2 extends React.Component {
 					<div className="card container">
 						<h3>What would you like to do?</h3>
 						<div className="row first-row">
-							<Link href="/Mindbodyonline2">
+							<Link href="/mindbodyonline2">
 								<a>
 									<h6>Class Schedule</h6>
 								</a>
@@ -54,7 +54,7 @@ export default class PublicClass2 extends React.Component {
 						</div>
 
 						<div className="row first-row">
-							<Link href="/Afterclassreview2">
+							<Link href="/afterclassreview2">
 								<a>
 									<h6>Recap and review! Which exercises do you remember?</h6>
 								</a>

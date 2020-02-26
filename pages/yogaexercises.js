@@ -7,10 +7,7 @@ import Error from './_error';
 import { Component } from 'react';
 import Head from 'next/head';
 
-export default class Yogaexercises extends Component {
-	// state = {
-	// 	poses: null
-	// }
+export default class yogaexercises extends Component {
 	static async getInitialProps() {
 		const res = await fetch('https://yoga-exercises-api.herokuapp.com/poses');
 		const statusCode = res.status > 200 ? res.status : false;

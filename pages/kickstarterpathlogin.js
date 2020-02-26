@@ -6,7 +6,7 @@ import { Component } from 'react';
 import Router, { useRouter } from 'next/router';
 import Head from 'next/head';
 
-export default class Kickstarterpathlogin extends Component {
+export default class kickstarterpathlogin extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -30,7 +30,7 @@ export default class Kickstarterpathlogin extends Component {
 		this.setState({
 			bookedPrivateFirstClass : true
 		});
-		Router.push('/PrivateClass');
+		Router.push('/privateclass');
 	};
 
 	// To redirect to public class
@@ -40,7 +40,7 @@ export default class Kickstarterpathlogin extends Component {
 		this.setState({
 			bookedFirstPublicClass : true
 		});
-		Router.push('/PublicClass');
+		Router.push('/publicclass');
 	};
 
 	render() {

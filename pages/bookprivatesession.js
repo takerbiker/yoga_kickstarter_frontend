@@ -8,7 +8,7 @@ import Head from 'next/head';
 import { Component } from 'react';
 import { useRouter } from 'next/router';
 
-export default class BookPrivateSession extends React.Component {
+export default class bookPrivateSession extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {

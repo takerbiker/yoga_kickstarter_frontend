@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { Component } from 'react';
 import CommentsForm from '../components/CommentsForm';
 
-export default class Adminprofile extends Component {
+export default class adminprofile extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {

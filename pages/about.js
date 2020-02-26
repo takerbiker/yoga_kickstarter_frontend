@@ -3,7 +3,7 @@ import Layout from '../components/MyLayout';
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function About() {
+export default function about() {
 	return (
 		<Layout title="About us">
 			<Head>

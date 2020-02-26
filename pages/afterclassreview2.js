@@ -6,7 +6,7 @@ import { Component } from 'react';
 import Head from 'next/head';
 import Router, { useRouter } from 'next/router';
 
-export default class Afterclassreview2 extends Component {
+export default class afterclassreview2 extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -45,7 +45,7 @@ export default class Afterclassreview2 extends Component {
 	// HandleSubmit
 	handleSubmit = (event) => {
 		event.preventDefault();
-		Router.push('/PublicClass2');
+		Router.push('/publicclass2');
 	};
 
 	/////////////////////////////////////////////////////////////////////

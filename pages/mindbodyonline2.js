@@ -7,7 +7,7 @@ import { Component } from 'react';
 import classSchedule from '../base/mindbodyonline.js';
 // import useSWR from 'swr';
 
-export default class Mindbodyonline2 extends Component {
+export default class mindbodyonline2 extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -57,7 +57,7 @@ export default class Mindbodyonline2 extends Component {
 						{classSchedule[0].ClassDescription.Name} */}
 						<div className="textCenter">
 							<h3>Classes suitable for you!</h3>
-							<Link href="/PublicClass2">
+							<Link href="/publicclass2">
 								<a>Back</a>
 							</Link>
 						</div>
