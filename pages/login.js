@@ -19,7 +19,7 @@ export default class Login extends React.Component {
 	}
 
 	static async getInitialProps() {
-		const res = await fetch('http://localhost:3000/users');
+		const res = await fetch('https://yoga-exercises-api.herokuapp.com/users');
 		const data = await res.json();
 		console.log(`User data fetched. Count: ${data.length}`);
 

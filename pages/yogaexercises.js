@@ -12,7 +12,7 @@ export default class Yogaexercises extends Component {
 	// 	poses: null
 	// }
 	static async getInitialProps() {
-		const res = await fetch('http://localhost:3000/poses');
+		const res = await fetch('https://yoga-exercises-api.herokuapp.com/poses');
 		const statusCode = res.status > 200 ? res.status : false;
 		const data = await res.json();
 		console.log(`Yoga exercises data fetched. Count: ${data.length}`);

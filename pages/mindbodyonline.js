@@ -17,7 +17,7 @@ export default class Mindbodyonline extends Component {
 
 	// To fetch
 	static async getInitialProps() {
-		const res = await fetch('http://localhost:3000/classes');
+		const res = await fetch('https://yoga-exercises-api.herokuapp.com/classes');
 		const statusCode = res.status > 200 ? res.status : false;
 		const data = await res.json();
 		console.log(`Class schedule fetch.`);
