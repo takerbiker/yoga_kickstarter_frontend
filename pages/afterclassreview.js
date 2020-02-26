@@ -21,19 +21,17 @@ export default class afterclassreview extends Component {
 	}
 
 	// To pull in data
-	// static async getInitialProps() {
-	// 	const res = await fetch('https://yoga-exercises-api.herokuapp.com/poses');
-	// 	const statusCode = res.status > 200 ? res.status : false;
-	// 	const data = await res.json();
-	// 	console.log(`Yoga exercises data fetched. Count: ${data.length}`);
+	static async getInitialProps() {
+		const res = await fetch('https://yoga-exercises-api.herokuapp.com/poses');
+		const statusCode = res.status > 200 ? res.status : false;
+		const data = await res.json();
+		console.log(`Yoga exercises data fetched. Count: ${data.length}`);
 
-	// 	return {
-	// 		// poses : data.map((entry) => entry.pose)
-	// 		poses      : data,
-	// 		statusCode
-	// 	};
-		// TEST
-		// this.setState({ poses: poses})
+		return {
+			// poses : data.map((entry) => entry.pose)
+			poses      : data,
+			statusCode
+		};
 	}
 
 	// Handle Change / Submit for comments
@@ -54,10 +52,10 @@ export default class afterclassreview extends Component {
 	onCheckboxChange = (e) => {
 		const val = e.target.checked;
 		const name = e.target.name;
-		let updatedPoses = Object.assign({}, this.state.poses, { [name]: val });
-		this.setState({
-			poses : updatedPoses
-		});
+		// let updatedPoses = Object.assign({}, this.state.poses, { [name]: val });
+		// this.setState({
+		// 	poses : updatedPoses
+		// });
 	};
 
 	onCheckboxSubmit = (e) => {
