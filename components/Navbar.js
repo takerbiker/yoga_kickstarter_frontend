@@ -50,12 +50,12 @@ class Navbar extends React.Component {
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link href="/About">
+								<Link href="/about">
 									<a>About</a>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link href="/Yogaexercises">
+								<Link href="/yogaexercises">
 									<a>Basic Asanas</a>
 								</Link>
 							</li>

@@ -111,7 +111,7 @@ export default class privateClass extends React.Component {
 							Show comments by instructor
 						</button> */}
 						</div>
-						<Link href="/Kickstarterpathlogin">
+						<Link href="/kickstarterpathlogin">
 							<a>Back</a>
 						</Link>
 					</div>

@@ -89,7 +89,7 @@ export default class publicclass2 extends React.Component {
 						</div>
 					</div>
 
-					<Link href="/Kickstarterpathpublic2">
+					<Link href="/kickstarterpathpublic2">
 						<a>Back</a>
 					</Link>
 				</div>

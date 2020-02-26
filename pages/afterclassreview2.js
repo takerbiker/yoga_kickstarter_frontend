@@ -21,20 +21,20 @@ export default class afterclassreview2 extends Component {
 	}
 
 	// To pull in data
-	static async getInitialProps() {
-		const res = await fetch('https://yoga-exercises-api.herokuapp.com/poses');
-		const statusCode = res.status > 200 ? res.status : false;
-		const data = await res.json();
-		console.log(`Yoga exercises data fetched. Count: ${data.length}`);
+	// static async getInitialProps() {
+	// 	const res = await fetch('https://yoga-exercises-api.herokuapp.com/poses');
+	// 	const statusCode = res.status > 200 ? res.status : false;
+	// 	const data = await res.json();
+	// 	console.log(`Yoga exercises data fetched. Count: ${data.length}`);
 
-		return {
-			// poses : data.map((entry) => entry.pose)
-			poses      : data,
-			statusCode
-		};
-		// TEST
-		// this.setState({ poses: poses})
-	}
+	// 	return {
+	// 		// poses : data.map((entry) => entry.pose)
+	// 		poses      : data,
+	// 		statusCode
+	// 	};
+	// 	// TEST
+	// 	// this.setState({ poses: poses})
+	// }
 
 	// Handle Change / Submit for comments
 	// HandleChange
