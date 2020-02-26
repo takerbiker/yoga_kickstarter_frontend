@@ -29,7 +29,7 @@ export default class CommentsForm extends React.Component {
 	};
 
 	getComments = () => {
-		fetch('http://localhost:3000/comments')
+		fetch('https://yoga-exercises-api.herokuapp.com/comments')
 			.then((response) => response.json())
 			.then((json) => console.log(json))
 			.catch((error) => console.error(erro));

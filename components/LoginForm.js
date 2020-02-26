@@ -23,7 +23,7 @@ class LoginForm extends React.Component {
 
 	handleSubmit = (event) => {
 		event.preventDefault();
-		fetch('http://localhost:3000/users', {
+		fetch('https://yoga-exercises-api.herokuapp.com/users', {
 			method  : 'POST',
 			body    : JSON.stringify(this.state),
 			headers : {

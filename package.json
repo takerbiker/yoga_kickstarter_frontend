@@ -12,7 +12,7 @@
 	"license": "ISC",
 	"proxy": {
 		"/api": {
-			"target": "http://localhost:3001"
+			"target": "https://yoga-exercises-api.herokuapp.com/"
 		}
 	},
 	"dependencies": {
