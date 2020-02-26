@@ -10,11 +10,6 @@
 	},
 	"author": "",
 	"license": "ISC",
-	// "proxy": {
-	// 	"/api": {
-	// 		"target": "https://yoga-exercises-api.herokuapp.com/"
-	// 	}
-	// },
 	"dependencies": {
 		"axios": "^0.19.2",
 		"bootstrap": "^4.4.1",
