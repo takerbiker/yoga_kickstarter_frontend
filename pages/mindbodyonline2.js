@@ -31,9 +31,9 @@ export default class mindbodyonline2 extends Component {
 	render() {
 		// const { schedule, statusCode } = this.props;
 
-		if (statusCode) {
-			return <Error statusCode={statusCode} />;
-		}
+		// if (statusCode) {
+		// 	return <Error statusCode={statusCode} />;
+		// }
 
 		return (
 			<Layout title="Class Schedule">
