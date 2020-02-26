@@ -1,7 +1,7 @@
 import LayoutOut from '../components/MyLayoutOut';
 import Link from 'next/link';
-import PrivateClass from './PrivateClass';
-import PublicClass from './PublicClass';
+// import PrivateClass from './PrivateClass';
+// import PublicClass from './PublicClass';
 import { Component } from 'react';
 import Router, { useRouter } from 'next/router';
 import Head from 'next/head';
